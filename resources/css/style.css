@@ -7,10 +7,11 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
 }
 
 .centratura {
-    width: 80%;
+    width: 75%;
     margin: 5% auto;
     /* debugging */
     background-color: darkgreen;
@@ -22,6 +23,21 @@ body {
     /* debugging */
     background-color: rgb(43, 109, 43);
     height: 300px;
+}
+
+.btn-blu {
+    background-color: #0061ff;
+    color: white;
+}
+
+.title {
+    /* debugging */
+    height: 70px;
+    background-color: crimson;
+}
+
+.title h2 {
+    font-size: 4em;
 }
 
 .clearfix::after {
@@ -43,10 +59,28 @@ header {
 
 /* header nav */
 header nav {
-    width: 40%;
+    width: 50%;
+    /* margin: 0 1%; */
     /* debugging */
     background-color: brown;
     height: 100px;
+}
+
+header nav img {
+    float: left;
+    padding: 2%;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 2.5% 2% 2% 0;
+}
+
+header nav ul li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 1.6em;
 }
 
 #left {
@@ -55,40 +89,74 @@ header nav {
 
 #right {
     float: right;
+    text-align: right;
+}
+
+#inizia {
+    padding: 1% 50%;
+    margin-right: 2%;
 }
 
 /* banner */
 #banner {
-    padding: 150px 50px;
     width: 100%;
-    /* debugging */
-    background-color: cadetblue;
-    height: 600px;
+    padding-top: 100px;
+    margin-bottom: 10%;
+    background-color: #b4d0e7;
+    height: fit-content;
 }
 
-.title {
-    /* debugging */
-    height: 70px;
-    background-color: crimson;
+h1 {
+    font-size: 7em;
+    font-weight: 700;
+    padding: 3% 0;
 }
 
+/* colonna sx banner */
 .col-left {
     float: left;
-    width: 40%;
-    /* debugging */
-    background-color: coral;
-    height: 300px;
+    width: 35%;
+    font-size: 1.5em;
+    line-height: 1.6;
 }
 
+#prova-gratuita {
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+    padding: 1% 2%;
+    margin: 5% 0 1% 0;
+}
+
+.freccia-banner {
+    font-size: 2em;
+    margin-top: 5%;
+}
+
+/* banner col dx */
 .col-right {
     float: right;
-    width: 40%;
-    /* debugging */
-    background-color: coral;
-    height: 300px;
+    width: 65%;
+    height: 370px;
+}
+
+.col-right img {
+    width: 100%;
 }
 
 /* piani dropbox business */
+.title span {
+    font-size: 1.5em;
+    margin-right: 1%;
+}
+
+.title span::before {
+    content: "\026AC";
+    font-size: 1.5em;
+    color: #dddde0;
+    padding-right: 0.5%;
+}
+
 .col {
     float: left;
     /* debugging */
@@ -124,7 +192,7 @@ footer {
 }
 
 .container {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     /* debugging */
     background-color: white;
