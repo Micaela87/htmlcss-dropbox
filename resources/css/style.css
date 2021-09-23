@@ -32,8 +32,8 @@ body {
 
 .title {
     /* debugging */
-    height: 70px;
-    background-color: crimson;
+    height: fit-content;
+    background-color: white;
 }
 
 .title h2 {
@@ -145,6 +145,10 @@ h1 {
 }
 
 /* piani dropbox business */
+.fatturazione {
+    padding: 5% 0 2% 0;
+}
+
 .title span {
     font-size: 1.5em;
     margin-right: 1%;
@@ -160,21 +164,139 @@ h1 {
 .col {
     float: left;
     /* debugging */
-    background-color: darkorange;
-    height: 500px;
+    background-color: white;
+    height: fit-content;
 }
 
 .piani {
-    width: 30%;
-    margin: 2% 1.6%;
+    width: calc(90% / 3);
+    border: 1px solid #dddde0;
+    margin: 2% 0;
+}
+
+#col-center {
+    margin: 2% 5%;
+}
+
+.utente-piano {
+    border-bottom: 1px solid #dddde0;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 2% 0;
+}
+
+.icon {
+    margin-right: 1%;
+}
+
+.dettagli-piano {
+    padding: 0 5%;
+}
+
+.piani h3 {
+    font-size: 2em;
+    padding: 5% 0 3% 0;
+}
+
+.piani span {
+    display: block;
+    font-size: 1.5em;
+}
+
+.prezzo {
+    font-weight: bold;
+    padding: 2% 0;
+}
+
+.condizioni {
+    color: #dddde0;
+}
+
+.highlite {
+    padding: 10% 0;
+}
+
+.highlite li {
+    font-size: 1.5em;
+    list-style-type: none;
+    padding-bottom: 7%;
+}
+
+.btn-30-gg {
+    text-align: center;
+    padding: 2%;
+}
+
+.acquista-ora {
+    padding: 8% 0;
+}
+
+.acquista-ora a {
+    font-weight: bold;
+}
+
+hr {
+    width: 15%;
+}
+
+.piani h4 {
+    font-size: 1.6em;
+    padding: 8% 0 4% 0;
+}
+
+.dettagli {
+    padding-bottom: 2%;
+}
+
+.dettagli li {
+    list-style-type: none;
+    padding-bottom: 5%;
+    font-size: 1.5em;
+}
+
+.blu {
+    color: #0061ff;
 }
 
 .no-float {
     width: 100%;
-    margin: 0;
+    margin: 2% 0;
+    border: 1px solid #dddde0;
     /* debugging */
-    background-color: darkorange;
-    height: 100px;
+    background-color: white;
+    height: fit-content;
+}
+
+.utente-team {
+    border-bottom: 1px solid #dddde0;
+    font-size: 1.5em;
+    padding: 1% 0;
+    text-align: center;
+}
+
+.corpo-utente-team {
+    padding: 2%;
+}
+
+.corpo-utente-team h3 {
+    float: left;
+    font-size: 2em;
+}
+
+.ufficio-vendite {
+    float: right;
+    text-decoration: none;
+    padding: 0.5% 5%;
+    font-size: 1.5em;
+}
+
+.corpo-utente-team h4 {
+    font-size: 1.6em;
+    padding: 1% 0;
+}
+
+.soluzioni {
+    font-size: 1.5em;
 }
 
 /* partner dropbox */
