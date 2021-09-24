@@ -40,6 +40,14 @@ body {
     font-size: 4em;
 }
 
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.6em;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -174,7 +182,7 @@ h1 {
     margin: 2% 0;
 }
 
-#col-center {
+.col-center {
     margin: 2% 5%;
 }
 
@@ -194,7 +202,6 @@ h1 {
 }
 
 .piani h3 {
-    font-size: 2em;
     padding: 5% 0 3% 0;
 }
 
@@ -240,7 +247,6 @@ hr {
 }
 
 .piani h4 {
-    font-size: 1.6em;
     padding: 8% 0 4% 0;
 }
 
@@ -301,8 +307,53 @@ hr {
 
 /* partner dropbox */
 .partner {
+    width: 60%;
+    /* margin: 2% 5%; */
+}
+
+.partner img {
+    width: 100%;
+}
+
+#text-col {
     width: 40%;
-    margin: 2% 5%;
+    float: right;
+    padding: 10% 0 10% 5%;
+}
+
+#text-col p {
+    font-size: 1.5em;
+    padding: 5% 0;
+    line-height: 1.6;
+}
+
+#text-col a {
+    font-size: 1.5em;
+    display: block;
+    padding: 2% 5%;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+}
+
+/* operazioni dropbox business */
+.feature {
+    border: none;
+}
+
+.feature img {
+    width: 100%;
+}
+
+.feature p {
+    font-size: 1.5em;
+    padding: 5% 0;
+    line-height: 1.6;
+}
+
+.feature p a {
+    color: black;
 }
 
 /* footer */
