@@ -18,13 +18,6 @@ body {
     height: fit-content;
 }
 
-.tutta-pagina {
-    width: 100%;
-    /* debugging */
-    background-color: rgb(43, 109, 43);
-    height: 300px;
-}
-
 .btn-blu {
     background-color: #0061ff;
     color: white;
@@ -368,13 +361,12 @@ hr {
 /* banner team che utilizzano dropbox business */
 .side, .center {
     float: left;
-    background-color: aqua;
-    border: 1px solid black;
-    height: 500px;
+    height: 450px;
 }
 
 .center {
     width: 40%;
+    background-color: #f5f5f5;
 }
 
 .side {
@@ -385,14 +377,99 @@ hr {
     float: left;
     width: 50%;
     height: 500px;
-    /* background-color: aquamarine; */
-    border: 1px solid black;
 }
 
 .square {
     width: 100%;
-    height: 50%;
-    border: 1px solid black;
+    height: 45%;
+}
+
+.square img {
+    width: 75%;
+    margin: 12.5%;
+}
+
+.container-team {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.center img {
+    width: 25%;
+}
+
+.center p {
+    font-size: 1.5em;
+    padding: 5% 0;
+    line-height: 1.6;
+}
+
+#designit {
+    background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
+}
+
+#uf-florida {
+    background-color: #0093ce;
+}
+
+#uf-florida img {
+    margin-top: 40%;
+    margin-bottom: 0;
+}
+
+#asu {
+    background-color: #61082b;
+}
+
+#topps {
+    background-color: #ff1c1c;
+}
+
+#wbr {
+    background-color: #d5001f;
+}
+
+#lonely-planet {
+    background-color: #0d2481;
+}
+
+#hearst {
+    background-color: #b4d0e7;
+}
+
+#cco {
+    background-color: #ffd830;
+}
+
+/* prova gratuita dropbox business */
+.tutta-pagina {
+    width: 100%;
+    padding: 5% 0;
+    background-color: #b4d0e7;
+}
+
+.text {
+    float: left;
+    width: 50%;
+}
+
+.button {
+    float: right;
+    width: 23%;
+}
+
+.button a {
+    display: block;
+    background-color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 2% 15%;
+    color: black;
+}
+
+#text-bordeaux {
+    color: #61082b;
 }
 
 /* footer */
