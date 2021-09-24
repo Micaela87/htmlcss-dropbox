@@ -356,6 +356,45 @@ hr {
     color: black;
 }
 
+/* team utilizzano dropbox business */
+.title a {
+    display: block;
+    color: #0061ff;
+    font-size: 1.5em;
+    padding: 2% 0;
+    font-weight: bold;
+}
+
+/* banner team che utilizzano dropbox business */
+.side, .center {
+    float: left;
+    background-color: aqua;
+    border: 1px solid black;
+    height: 500px;
+}
+
+.center {
+    width: 40%;
+}
+
+.side {
+    width: 30%;
+}
+
+.row {
+    float: left;
+    width: 50%;
+    height: 500px;
+    /* background-color: aquamarine; */
+    border: 1px solid black;
+}
+
+.square {
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+}
+
 /* footer */
 footer {
     width: 100%;
