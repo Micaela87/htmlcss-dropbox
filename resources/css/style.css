@@ -13,20 +13,11 @@ body {
 .centratura {
     width: 75%;
     margin: 5% auto;
-    /* debugging */
-    background-color: darkgreen;
-    height: fit-content;
 }
 
 .btn-blu {
     background-color: #0061ff;
     color: white;
-}
-
-.title {
-    /* debugging */
-    height: fit-content;
-    background-color: white;
 }
 
 .title h2 {
@@ -472,34 +463,90 @@ hr {
     color: #61082b;
 }
 
+/* faq */
+#domande {
+    padding: 3% 0;
+}
+
+.contenitore {
+    border-top: 1px solid #e5e5e7;
+}
+
+#border-bottom {
+    border-bottom: 1px solid #e5e5e7;
+}
+
+.faq {
+    width: 75%;
+    margin: 0;
+    border: none;
+}
+
+.freccia {
+    float: right;
+    width: 15%;
+    text-align: right;
+    padding: 0 4%;
+    border: none;
+}
+
+.faq span, .fa-angle-down {
+    display: block;
+    padding: 3% 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+
 /* footer */
 footer {
     width: 100%;
     background-color: black;
-    /* debugging */
-    height: fit-content;
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
-    /* debugging */
-    background-color: white;
-    height: fit-content;
+    padding-top: 2%;
 }
 
+/* parte superiore footer */
 .info {
     float: left;
-    width: 18%;
-    margin: 1%;
-    /* debugging */
-    background-color: darkgrey;
-    height: 200px;
+    width: calc(96% / 5);
+    margin-right: 1%;
 }
 
-.logo {
-    width: 20%;
-    /* debugging */
-    background-color: darkgrey;
-    height: 50px;    
+#community {
+    margin-right: 0;
+}
+
+.info h3 {
+    padding: 3% 0;
+    color: white;
+}
+
+.info ul li {
+    list-style-type: none;
+    padding: 2% 0;
+}
+
+.info ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+/* parte inferiore footer */
+.lingua {
+    width: 10%;
+    border-top: 2px solid #5b5b5b;
+    padding: 3% 0;
+}
+
+.lingua span, .fa-globe-americas, .fa-caret-up {
+    color: #5b5b5b;
+    font-size: 1.2em;
+    padding: 0.5% 0;
 }
