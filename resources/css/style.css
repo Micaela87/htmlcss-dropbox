@@ -177,10 +177,6 @@ h1 {
     padding: 2% 0;
 }
 
-.icon {
-    margin-right: 1%;
-}
-
 .dettagli-piano {
     padding: 0 5%;
 }
@@ -205,12 +201,32 @@ h1 {
 
 .highlite {
     padding: 10% 0;
+    margin-left: 7%;
 }
 
 .highlite li {
     font-size: 1.5em;
-    list-style-type: none;
     padding-bottom: 7%;
+}
+
+.user {
+    list-style-image: url('../img/icone/user-regular.svg');
+}
+
+.folder {
+    list-style-image: url('../img/icone/folder-regular.svg');
+}
+
+.pencil {
+    list-style-image: url('../img/icone/pencil-alt-solid.svg');
+}
+
+.user-plus {
+    list-style-image: url('../img/icone/user-plus-solid.svg');
+}
+
+.smile {
+    list-style-image: url('../img/icone/smile-regular.svg');
 }
 
 .btn-30-gg {
@@ -236,10 +252,11 @@ hr {
 
 .dettagli {
     padding-bottom: 2%;
+    list-style-image: url('../img/icone/check-solid.svg');
+    margin-left: 7%;
 }
 
 .dettagli li {
-    list-style-type: none;
     padding-bottom: 5%;
     font-size: 1.5em;
 }
