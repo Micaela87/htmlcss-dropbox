@@ -10,18 +10,36 @@ body {
     font-size: 10px;
 }
 
+/* per centrare le varie sezioni della pagina */
 .centratura {
     width: 75%;
     margin: 5% auto;
 }
 
+/* per centrare contenuto banner e footer */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+
 .btn-blu {
     background-color: #0061ff;
     color: white;
+    display: block;
+    width: fit-content;
+    width: -moz-fit-content;
 }
 
-.title h2 {
+h1 {
+    font-size: 7em;
+    font-weight: 700;
+    padding: 3% 0;
+}
+
+h2 {
     font-size: 4em;
+    padding: 2% 0;
 }
 
 h3 {
@@ -30,6 +48,22 @@ h3 {
 
 h4 {
     font-size: 1.6em;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.6;
+}
+
+span {
+    font-size: 1.5em;
+    line-height: 1.6;
+}
+
+a {
+    line-height: 1.6;
+    text-decoration: none;
+    color: black;
 }
 
 .clearfix::after {
@@ -76,13 +110,12 @@ header nav {
 
 header nav ul li {
     display: inline-block;
-    padding: 1% 2%;
-    font-size: 1.5em;
+    margin-right: 2%;
+    line-height: 4;
 }
 
 header nav ul li a {
-    color: black;
-    text-decoration: none;
+    font-size: 1.5em;
 }
 
 #inizia {
@@ -98,24 +131,14 @@ header nav ul li a {
     height: fit-content;
 }
 
-h1 {
-    font-size: 7em;
-    font-weight: 700;
-    padding: 3% 0;
-}
-
-/* colonna sx banner */
+/* banner col sx */
 .col-left {
     float: left;
     width: 35%;
-    font-size: 1.5em;
-    line-height: 1.6;
 }
 
 #prova-gratuita {
-    display: block;
-    width: fit-content;
-    text-decoration: none;
+    font-size: 1.5em;
     padding: 1% 2%;
     margin: 5% 0 1% 0;
 }
@@ -138,31 +161,24 @@ h1 {
 
 /* piani dropbox business */
 .fatturazione {
-    padding: 5% 0 2% 0;
+    padding: 1% 0 2% 0;
 }
 
-.title span {
+.fatturazione span {
     font-size: 1.5em;
     margin-right: 1%;
 }
 
-.title span::before {
+.fatturazione span::before {
     content: "\026AC";
     font-size: 1.5em;
     color: #dddde0;
     padding-right: 0.5%;
 }
 
-.col {
-    float: left;
-    /* debugging */
-    background-color: white;
-    height: fit-content;
-}
-
 .piani {
+    float: left;
     width: calc(90% / 3);
-    border: 1px solid #dddde0;
     margin: 2% 0;
 }
 
@@ -171,7 +187,7 @@ h1 {
 }
 
 .utente-piano {
-    border-bottom: 1px solid #dddde0;
+    border: 1px solid #dddde0;
     font-size: 1.5em;
     text-align: center;
     padding: 2% 0;
@@ -179,6 +195,8 @@ h1 {
 
 .dettagli-piano {
     padding: 0 5%;
+    border: 1px solid #dddde0;
+    border-top: none;
 }
 
 .piani h3 {
@@ -187,7 +205,6 @@ h1 {
 
 .piani span {
     display: block;
-    font-size: 1.5em;
 }
 
 .prezzo {
@@ -230,8 +247,10 @@ h1 {
 }
 
 .btn-30-gg {
+    display: block;
     text-align: center;
     padding: 2%;
+    width: 100%;
 }
 
 .acquista-ora {
@@ -240,6 +259,8 @@ h1 {
 
 .acquista-ora a {
     font-weight: bold;
+    color: #0061ff;
+    text-decoration: underline;
 }
 
 hr {
@@ -269,9 +290,6 @@ hr {
     width: 100%;
     margin: 2% 0;
     border: 1px solid #dddde0;
-    /* debugging */
-    background-color: white;
-    height: fit-content;
 }
 
 .utente-team {
@@ -287,12 +305,10 @@ hr {
 
 .corpo-utente-team h3 {
     float: left;
-    font-size: 2em;
 }
 
 .ufficio-vendite {
     float: right;
-    text-decoration: none;
     padding: 0.5% 5%;
     font-size: 1.5em;
 }
@@ -309,40 +325,33 @@ hr {
 /* partner dropbox */
 .partner {
     width: 60%;
-    /* margin: 2% 5%; */
+    float: left;
 }
 
 .partner img {
     width: 100%;
 }
 
-#text-col {
+.text-col {
     width: 40%;
     float: right;
     padding: 10% 0 10% 5%;
 }
 
-#text-col p {
-    font-size: 1.5em;
+.text-col p {
     padding: 5% 0;
-    line-height: 1.6;
 }
 
-#text-col a {
+.text-col a {
     font-size: 1.5em;
     display: block;
     padding: 2% 5%;
     border: 1px solid black;
     text-decoration: none;
-    color: black;
     width: fit-content;
 }
 
 /* operazioni dropbox business */
-.feature {
-    border: none;
-}
-
 .feature img {
     width: 100%;
 }
@@ -353,17 +362,13 @@ hr {
     line-height: 1.6;
 }
 
-.feature p a {
-    color: black;
-}
-
 /* team utilizzano dropbox business */
-.title a {
+#clienti {
     display: block;
     color: #0061ff;
     font-size: 1.5em;
-    padding: 2% 0;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 /* banner team che utilizzano dropbox business */
@@ -452,32 +457,24 @@ hr {
 
 /* prova gratuita dropbox business */
 .tutta-pagina {
-    width: 100%;
     padding: 5% 0;
     background-color: #b4d0e7;
-}
-
-.text {
-    float: left;
-    width: 50%;
 }
 
 .button {
     float: right;
     width: 23%;
-}
-
-.button a {
     display: block;
     background-color: white;
     font-size: 1.5em;
     text-decoration: none;
-    padding: 2% 15%;
-    color: black;
+    padding: 0.5% 2.5%;
 }
 
 #text-bordeaux {
     color: #61082b;
+    float: left;
+    padding: 0;
 }
 
 /* faq */
@@ -494,9 +491,9 @@ hr {
 }
 
 .faq {
+    float: left;
     width: 75%;
     margin: 0;
-    border: none;
 }
 
 .freccia {
@@ -504,28 +501,24 @@ hr {
     width: 15%;
     text-align: right;
     padding: 0 4%;
-    border: none;
 }
 
-.faq span, .fa-angle-down {
+.faq span {
     display: block;
     padding: 3% 0;
     font-size: 1.5em;
     font-weight: bold;
 }
 
-
+.fa-angle-down {
+    padding: 35% 0;
+    font-size: 2em;
+}
 
 /* footer */
 footer {
     width: 100%;
     background-color: black;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 2%;
 }
 
 /* parte superiore footer */
