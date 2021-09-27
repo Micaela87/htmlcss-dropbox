@@ -112,14 +112,25 @@ header nav ul li {
     display: inline-block;
     margin-right: 2%;
     line-height: 4;
+    vertical-align: middle;
 }
 
 header nav ul li a {
     font-size: 1.5em;
+    padding-bottom: 25px;
+}
+
+header nav ul li a:hover {
+    border-bottom: 4px solid black;
 }
 
 #inizia {
     padding: 20% 40%;
+    border: none;
+}
+
+#inizia:hover {
+    background-color: #0093ce;
 }
 
 /* banner */
