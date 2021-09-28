@@ -126,6 +126,7 @@ header nav ul li a:hover {
 
 #inizia:hover {
     background-color: #0093ce;
+    border-bottom: none;
 }
 
 /* banner */
@@ -167,14 +168,11 @@ header nav ul li a:hover {
 
 /* piani dropbox business */
 .fatturazione {
-    padding: 1% 0 2% 0;
-}
-
-.fatturazione span {
+    padding: 2% 0 2% 0;
     margin-right: 1%;
 }
 
-.fatturazione span::before {
+.fatturazione::before {
     content: "\026AC";
     font-size: 1.5em;
     color: #dddde0;
@@ -333,10 +331,6 @@ hr {
 .partner {
     width: 60%;
     float: left;
-}
-
-.partner img {
-    width: 100%;
 }
 
 .text-col {
@@ -503,23 +497,16 @@ hr {
     float: left;
     width: 75%;
     margin: 0;
+    display: block;
+    padding: 2% 0;
+    font-weight: bold;
 }
 
 .freccia {
     float: right;
     width: 15%;
     text-align: right;
-    padding: 0 4%;
-}
-
-.faq span {
-    display: block;
-    padding: 3% 0;
-    font-weight: bold;
-}
-
-.fa-angle-down {
-    padding: 35% 0;
+    padding: 2.2% 4%;
     font-size: 2em;
 }
 
